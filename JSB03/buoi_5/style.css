@@ -1,0 +1,45 @@
+h1{
+    display: inline-block;
+    margin: 3px 3px 3px 3px;
+}
+body{
+    background-color: antiquewhite;
+}
+/* class */
+.box-item{
+    background-color: rgb(85, 77, 150);
+    text-align: center;
+    height: 200px;
+    padding: 200px;
+    margin: 10px 50px 10px 50px;
+    border-radius: 10px;
+}
+.abc{
+    text-align: center;
+    margin: 50px;
+    padding: 150px;
+    border-radius: 50%;
+    background-color: rgb(234, 13, 13);
+    position: fixed;
+    left: 400px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* id */
+#no1{
+    background-color: black;
+}
+#no2{
+    background-color: aquamarine;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#no3{
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}

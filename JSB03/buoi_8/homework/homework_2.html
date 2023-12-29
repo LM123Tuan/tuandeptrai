@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm kiếm</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <style>
+        #search_advance {
+            display: none;
+        }
+
+        table {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tìm kiếm dữ liệu</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>Nhập tiêu đề</td>
+            <td>
+                <input type="text" id="title" value="" /><br />
+                <a href="#" id="show_search_advance" onclick="advance_search()">Tìm kiếm nâng cao</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="$"></td>
+            <td id="search_advance">
+                <p style="margin-bottom: 5px;">Chọn chuyên mục:</p>
+                <select id="category" style="margin-bottom: 10px; margin-top: 5px;">
+                    <option value="1">Game</option>
+                    <option value="2">Web</option>
+                </select>
+            </td>
+            <td>
+                <input type="button" id="btn_search" value="Tìm kiếm">
+            </td>
+        </tr>
+    </table>
+    <script>
+        var dem = 0
+        function advance_search() {
+            x = document.getElementById('show_search_advance')
+            y = document.getElementById('search_advance')
+            z = document.getElementById('$')
+            if (dem % 2 == 0) {
+                x.innerText = "Bỏ tìm kiếm nâng cao"
+                y.style.display = 'block';
+                z.style.display = 'none';
+                dem += 1
+            }
+            else if (dem % 2 == 1) {
+                x.innerText = "Tìm kiếm nâng cao"
+                y.style.display = 'none';
+                z.style.display = 'block';
+                z.style.height = '21.75px';
+                dem += 1
+            }
+        }
+    </script>
+</body>
+
+</html>

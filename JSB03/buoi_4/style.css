@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+.all{
+    display: flex;
+}
+.nav{
+    width: 20vw;
+    background-color: rgb(193, 246, 193);
+    height: 100vh;
+}
+.header{
+    height: 10vh;
+    background-color: rgb(46, 197, 46);
+    width: 80vw;
+}
+.a{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.aside{
+   background-color: antiquewhite;
+   height: 90vh;
+   width: 20vw;
+}
+.footer{
+    width: 60vw;
+    background-color: rgb(46, 197, 46);
+    height: 10vh;
+}
+.art{
+    height: 80vh;
+}

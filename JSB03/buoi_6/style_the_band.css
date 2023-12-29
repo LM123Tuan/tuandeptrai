@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.all {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    color: rgb(249, 249, 250);
+    text-align: left;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ct {
+    margin-top: 50px;
+}
+
+.sl {
+    display: flex;
+    background-color: gray;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 500px;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+}
+
+.para {
+    padding: 25px 15px 17px 15px;
+}
+
+.img {
+    display: flex;
+    background-color: rgb(207, 201, 201);
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+}
+
+.ct3 {
+    background-color: rgb(112, 109, 109);
+    color: white;
+}
+
+.c {
+    padding: 25px 15px 13px 15px;
+}
+
+.nav1 {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.nav1:hover {
+    background-color: rgb(73, 219, 136);
+}
+
+.nav1:hover .dropdown {
+    display: block;
+    background-color: black;
+}
+
+.nav1:hover .dropdown-item:hover {
+    background-color: rgb(73, 219, 136);
+}
+
+.menu {
+    display: flex;
+}
+
+.icon {
+    padding-right: 40px;
+}
+
+.sl_img {
+    width: 100%;
+}
+
+.sl_img img {
+    object-fit: cover;
+}
+
+.dropdown {
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    text-align: start;
+}
+
+.dropdown-item {
+    padding-left: 10px;
+}
+
+.bxs-down-arrow {
+    padding-left: 5px;
+}

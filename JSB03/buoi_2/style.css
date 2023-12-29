@@ -1,0 +1,27 @@
+h1{
+    color: rgb(212, 20, 20);
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 20px 20px 0px 0px;
+    width: 500px;
+    border: 2px rebeccapurple solid;
+    padding: 10px 30px 5px 20px;
+    margin: 20px 50px 20px 50px;
+}
+p{
+    background-color: aqua;
+}
+body{
+    background-color: rgb(215, 183, 202);
+}
+img{
+    width: 250px;
+    height: 350px;
+}
+a{
+    /* display: block;  */
+    /* ctrl+/ */
+    /* display: inline; */
+    display: inline-block;
+    margin: 10px;
+}

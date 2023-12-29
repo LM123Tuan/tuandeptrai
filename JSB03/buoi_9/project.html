@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form class="login" onsubmit="return false">
+        <div class="title"><b>ĐĂNG NHẬP</b></div>
+        <div class="form-group">
+            <label><b>Email</b></label>
+            <input id="email" type="text" placeholder="Email của bạn">
+        </div>
+        <div class="form-group">
+            <label><b>Mật khẩu</b></label>
+            <input id="password" type="password" placeholder="Mật khẩu của bạn">
+            <span id="2"></span>
+        </div>
+        <div class="button">
+            <input type="button" value="Đăng nhập" class="btn"
+                style="color: white; background-color: rgb(21, 129, 218); border-radius: 2px; border: none;">
+        </div>
+        <div class="form-group">
+            <p style="font-size: 15px;"><i>(*) Chưa có tài khoản?</i></p>
+        </div>
+    </form>
+    <form class="login" onsubmit="return false">
+        <div class="title"><b>ĐĂNG KÝ</b></div>
+        <div class="form-group">
+            <label><b>Họ và tên</b></label>
+            <input type="text" placeholder="Tên đầy đủ của bạn">
+        </div>
+        <div class="form-group">
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Email của bạn">
+        </div>
+        <div class="form-group">
+            <label><b>Mật khẩu</b></label>
+            <input id="password_signup" type="password" placeholder="Mật khẩu của bạn">
+            <span id="5"></span>
+        </div>
+        <div class="form-group">
+            <label><b>Nhập lại mật khẩu</b></label>
+            <input type="password" placeholder="Nhập lại mật khẩu của bạn">
+        </div>
+        <div class="button">
+            <input type="button" value="Đăng ký" class="btn"
+                style="color: white; background-color: rgb(21, 129, 218); border-radius: 2px; border: none;">
+        </div>
+        <div class="form-group">
+            <p style="font-size: 15px;"><i>(*) Đã có tài khoản?</i></p>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>
